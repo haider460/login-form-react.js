@@ -1,0 +1,148 @@
+.card {
+  background-color: #fff;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 20px;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  margin-top: 20px;
+  width: 370px;
+
+  text-align: center;
+}
+
+.sign-up-link {
+  text-decoration: none;
+  color: rgba(88, 80, 236, 1);
+  font-size: 16px;
+}
+
+.logo {
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  height: 3rem;
+}
+
+.login-container {
+  margin-top: 45px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 8px;
+  font-weight: 900;
+  font-size: 27px;
+}
+.header-heading {
+  margin-bottom: 15px;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 10px !important;
+  font-size: 16px !important;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+  font-size: 12px;
+}
+
+input:focus,
+input:focus-visible {
+  box-shadow: 0 0 0 3px rgba(164, 202, 254, 0.45);
+  border: none !important;
+  outline: none !important;
+}
+input[type="email"],
+input[type="password"] {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+button[type="submit"] {
+  background-color: #3f51b5;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+button[type="submit"]:hover {
+  background-color: #26327f;
+}
+
+.signup-link {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(88, 80, 236, 1);
+  text-align: right;
+}
+
+.signup-link a {
+  color: #3f51b5;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 40px;
+  }
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: self-start;
+}
+.checkbox-container input {
+  margin-right: 10px;
+}
+
+.input-error {
+  border-color: red !important;
+}
